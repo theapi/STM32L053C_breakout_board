@@ -3,7 +3,7 @@
   (general
     (links 76)
     (no_connects 0)
-    (area 181.280999 79.680999 202.259001 123.519001)
+    (area 177.792667 75.151 205.747334 124.593)
     (thickness 1.6)
     (drawings 47)
     (tracks 407)
@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFEF77F)
+    (visible_elements FFFEF37F)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions true)
@@ -255,6 +255,7 @@
     (descr "48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)")
     (tags "QFP 0.5")
     (path /580631B3)
+    (solder_mask_margin 0.07)
     (attr smd)
     (fp_text reference U1 (at 0 -6 315) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
