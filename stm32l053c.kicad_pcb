@@ -14,7 +14,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -1251,7 +1251,7 @@
   (gr_text PC13 (at 185.293 86.868 315) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text PB3 (at 184.658 88.392 315) (layer F.SilkS)
+  (gr_text MCO (at 184.658 88.392 315) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text PB11 (at 184.912 121.666 315) (layer F.SilkS)
